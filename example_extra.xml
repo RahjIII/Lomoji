@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!-- Copyright © 2024 liblomoji -->
+<ldml>
+	<identity>
+		<version number="$Revision: 1.2 $"/>
+		<language type="en"/>
+	</identity>
+	<annotations>
+		<annotation cp="¡" type="tts">!</annotation>
+		<annotation cp="¿" type="tts">?</annotation>
+		<annotation cp="⍥" type="tts">ring</annotation>
+		<annotation cp="⍜" type="tts">neck armor</annotation>
+		<annotation cp="♥" type="tts">body armor</annotation>
+		<annotation cp="♔" type="tts">head armor</annotation>
+		<annotation cp="⋂" type="tts">leg armor</annotation>
+		<annotation cp="ະ" type="tts">foot armor</annotation>
+		<annotation cp="☝" type="tts">hand armor</annotation>
+		<annotation cp="☥" type="tts">arm armor</annotation>
+		<annotation cp="☢" type="tts">shield</annotation>
+		<annotation cp="⍓" type="tts">worn about</annotation>
+		<annotation cp="┉" type="tts">worn waist</annotation>
+		<annotation cp="▰" type="tts">wrist armor</annotation>
+		<annotation cp="⚔" type="tts">weapon</annotation>
+		<annotation cp="☘" type="tts">holdable</annotation>
+		<annotation cp="⚵" type="tts">light</annotation>
+		<annotation cp="∫" type="tts">scroll</annotation>
+		<annotation cp="☨" type="tts">wand</annotation>
+		<annotation cp="⚕" type="tts">staff</annotation>
+		<annotation cp="⚖" type="tts">treasure</annotation>
+		<annotation cp="⚗" type="tts">potion</annotation>
+		<annotation cp="♺" type="tts">recycle</annotation>
+		<annotation cp="☋" type="tts">bag</annotation>
+		<annotation cp="✉" type="tts">note</annotation>
+		<annotation cp="◒" type="tts">container</annotation>
+		<annotation cp="⚷" type="tts">key</annotation>
+		<annotation cp="♨" type="tts">food</annotation>
+		<annotation cp="✍" type="tts">pen</annotation>
+		<annotation cp="☯" type="tts">boat</annotation>
+		<annotation cp="◬" type="tts">shelter</annotation>
+		<annotation cp="☠" type="tts">corpse</annotation>
+		<annotation cp="⊞" type="tts">treasure map</annotation>
+		<annotation cp="∅" type="tts">missing</annotation>
+		<annotation cp="🗿" type="tts">immortal</annotation>
+		<annotation cp="💠" type="tts">@</annotation>
+		<annotation cp="@" type="tts">@</annotation>
+		<annotation cp="✔" type="tts">+</annotation>
+		<annotation cp="↑" type="tts">upgrade</annotation>
+		<annotation cp="⇲" type="tts">on sale</annotation>
+
+	</annotations>
+</ldml>

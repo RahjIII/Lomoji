@@ -1,0 +1,22 @@
++ write the readme.md
+
++ provide an example extras.xml override file for LO
+
+----DONE!----------------------------------
++ write the docs.
+
++ Redo the default annotations lookup functions.
+
++ Provide a 'toascii' filter that doesn't do lo character transliteration, in
+case people prefer that.
+
++ See if the 'oneoffs' can be put into a local cldr file. (so that "with" can
+be localized.)  Yep, it works.
+
++ make lomoji.pc inherit the prefix and version from the makefile.
+
++ The uplus filter needs to work on full graphemes not just on the first codepoint.
+
++ toascii on the annotations names.. turns out they have some unicode in them.
+see :women’s_room: for example.  Also quotemarks.  See ./lomoji -s :japan
+

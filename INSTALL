@@ -1,0 +1,27 @@
+Basic Installation Instructions
+-------------------------------
+
+Requires: glib-2.0
+	Homepage: https://wiki.gnome.org/Projects/GLib
+
+Recommends: unicode-cldr-core
+	Homepage: http://cldr.unicode.org/
+
+Recommends: exuberant-ctags
+	Homepage: http://ctags.sourceforge.net/
+
+...and gcc for complilation.
+
+To install packages on a debian style system-
+apt-get update
+apt-get install libglib2.0-dev unicode-cldr-core exuberant-ctags
+
+To build, edit makefile for any local changes (like the install prefix) then type `make`.
+
+To install type `sudo make install`
+
+To use in a project:
+#include <lomoji.h>
+
+Compile with `pkg-config -cflags lomoji`
+Link with `pkg-config -libs lomoji`
