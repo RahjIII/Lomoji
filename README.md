@@ -1,7 +1,6 @@
 # LibLomoji - The Last Outpost Emoji Translation Library
 
 ## Description
-## -----------
 
 Liblomoji is a UTF-8 ⇔ ASCII translation library written in C.  It uses files
 written in the XML format provided by UTS #35: Unicode Locale Data Markup
@@ -36,7 +35,6 @@ code, Liblomoji can be use anywhere that emoji translation may be useful.
 
 
 ## Compilation, Installation
-## -------------------------
 
 Liblomoji requires glib-2.0, and strongly recommends use of the annotation
 files from the CLDR project.  See the INSTALL file for more instruction.
@@ -66,7 +64,6 @@ used during ASCII to Unicode translation along with the ones marked tts.
 
 
 ## Usage
-## -----
 
 Read the lomoji.h file (installed in /usr/share/include by default) for a more
 complete description of the programming API.  
@@ -125,7 +122,6 @@ LINKLIBS += `pkg-config --libs lomoji`
 ```
 
 ## What I've learned from this project:
-## ------------------------------------
 
 Unicode and Emoji handling is *difficult*.  There are basic localized Unicode
 to ASCII translators available for or built into Linux (like iconv) but
@@ -139,21 +135,18 @@ wouldn't have written all this code.  But I did, so here we are.
 
 
 ## Bugs, Limitations, Todos
-## ------------------------
 
 Liblomoji makes no claims to be bug-free, complete, perfect, or any other such
 nonsense.  If you find it useful, great!  If you find a bug, let me know.
 
 
 ## Contributing, Bug Reporting, Support
-## ------------------------------------
 
 Contributions, suggestions, bug reports are all welcome.  Please contact the
 primary author in the AUTHORS file for more info.
 
 
 ## Thanks
-## ------
 
 Please see the AUTHORS file for a full list of contributors!
 
